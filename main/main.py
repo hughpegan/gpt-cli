@@ -21,10 +21,6 @@ def new_user():
     # like: put money into your playground account, links to guides, how to setup api key
     return None
 
-def get_color():
-    terminal_text_color = colorama.get_text_color()
-    print(terminal_text_color)
-
 
 def pretty_print(messages):
     for m in messages:
